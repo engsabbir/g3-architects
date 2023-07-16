@@ -1,3 +1,45 @@
+/* shared style  */
 *{
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
 }
+.text-primary-first{
+    color: #131313;
+}
+.text-primary-second{
+    color: #727272;
+}
+.text-primary-third{
+    color: #424242;
+}
+/* header section style */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 30px 130px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.navigation-link{
+    display: flex;
+
+}
+.navigation-link li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+}
+.navigation-link li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* header section style */
+/* header section style */
+/* header section style */
