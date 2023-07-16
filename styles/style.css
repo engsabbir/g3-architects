@@ -106,6 +106,7 @@ main{
 .team-content-description{
     margin: 1rem auto;
 }
+
 /* fact section style */
 .fact-container{
     margin-top: 4rem;
@@ -141,5 +142,22 @@ main{
     border-radius: 0.5rem;
     padding: 1rem 2rem;
     background-color: rgb(209, 209, 209);
+}
+
+/* footer section style */
+footer{
+    max-width: 1090px;
+    margin: auto;
+    background-color: #FFF4E7;
+    border-radius: 0.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.footer-text{
+    text-align: center;
+    padding: 1.5rem;
+}
+.footer-text a{
+    color: #424242;
 }
 /* header section style */
