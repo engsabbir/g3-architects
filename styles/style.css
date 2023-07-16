@@ -1,19 +1,19 @@
 /* shared style  */
-*{
+* {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     box-sizing: border-box;
 }
-.text-primary-first{
+.text-primary-first {
     color: #131313;
 }
-.text-primary-second{
+.text-primary-second {
     color: #727272;
 }
-.text-primary-third{
+.text-primary-third {
     color: #424242;
 }
-.btn-primary{
+.btn-primary {
     color: white;
     padding: 10px 12px;
     background-color: #FF900E;
@@ -23,101 +23,153 @@
     font-size: 20px;
     font-weight: 600;
 }
-.section-title{
+.section-title {
     font-size: 2rem;
     font-weight: 700;
 }
+
 /* header and navigation section style */
-header{
+header {
     background: rgba(255, 144, 14, 0.10);
     padding: 30px 130px;
 }
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.navigation-link{
+.navigation-link {
     display: flex;
     text-align: center;
 
 }
-.navigation-link li{
+.navigation-link li {
     list-style: none;
     margin-right: 30px;
     font-size: 1rem;
 }
-.navigation-link li a{
+.navigation-link li a {
     text-decoration: none;
     color: #424242;
 }
-.navigation-link a:hover{
+.navigation-link a:hover {
     color: orange;
 }
 
 /* banner section style */
-.banner-content{
+.banner-content {
     max-width: 900px;
     text-align: center;
     margin: 4rem auto;
 }
-.banner-title{
+.banner-title {
     font-size: 4rem;
 }
-.banner-description{
+.banner-description {
     margin: 1.5rem auto;
 }
-.banner-img img{
+.banner-img img {
     width: 100%;
 }
 
 /* main section style */
-main{
+main {
     max-width: 1090px;
     margin: auto;
 }
-.team-img-container{
+
+/* team section style */
+.team-img-container {
     display: flex;
     margin-top: 3rem;
     /* justify-content: space-between; */
     gap: 2rem;
     align-items: center;
 }
-.team-img{
+.team-img {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
 }
-.team-content-title{
+.team-content-title {
     font-size: 2.8rem;
 }
-.quick-list{
+.quick-list {
     font-weight: 500;
 }
-.of-our{
+.of-our {
     font-size: 2.8rem;
     font-weight: 700;
 }
-.features{
+.features {
     color: #FF900E;
     font-weight: 700;
 }
-.team-content-description{
+.team-content-description {
     margin: 1rem auto;
 }
 
+/* featured section style */
+.featured-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 5rem;
+    gap: 6rem;
+}
+.featured-text{
+    width: 70%;
+}
+.featured-text h2{
+    padding-left: 1rem;
+    border-left: 5px solid #FF900E;
+}
+.featured-text .card {
+    /* border: 1px solid rgb(197, 197, 197); */
+    padding: 10px;
+    padding-bottom: 0;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgb(189, 186, 186);
+}
+.featured-text p {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.featured-img img {
+    width: 100%;
+}
+.ten-year-experience{
+    background-color: #FF900E;
+    width: max-content;
+    height: 7.5rem;
+    padding: 1rem;
+    color: #FFF;
+    text-align: center;
+    border-radius: 0.5rem;
+    position: relative;
+    bottom: 8%;
+    right: 10%;
+}
+.ten-year-experience h2{
+    font-size: 3rem;
+    margin: 0;
+}
+.ten-year-experience p{
+    font-size: 1.5rem;
+}
+
 /* fact section style */
-.fact-container{
+.fact-container {
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-.card-container{
+.card-container {
     display: flex;
     justify-content: space-around;
     margin-top: 5rem;
 }
-.card{
+.card-container .card {
     border: 1px solid #FF900E;
     border-radius: 0.5rem;
     text-align: center;
@@ -125,19 +177,22 @@ main{
 }
 
 /* sponsors section style */
-.sponsor-container{
+.sponsor-container {
     text-align: center;
 }
-.sponsor-container p{
+
+.sponsor-container p {
     margin: 2rem;
 }
-.sponsors-column{
+
+.sponsors-column {
     margin-top: 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.sponsors-column img{
+
+.sponsors-column img {
     width: 8rem;
     border-radius: 0.5rem;
     padding: 1rem 2rem;
@@ -145,19 +200,18 @@ main{
 }
 
 /* footer section style */
-footer{
+footer {
     max-width: 1090px;
     margin: auto;
     background-color: #FFF4E7;
     border-radius: 0.5rem;
     margin-top: 4rem;
-    margin-bottom: 2rem;
 }
-.footer-text{
+.footer-text {
     text-align: center;
     padding: 1.5rem;
 }
-.footer-text a{
+.footer-text a {
     color: #424242;
 }
 /* header section style */
