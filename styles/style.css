@@ -108,7 +108,8 @@ main{
 }
 /* fact section style */
 .fact-container{
-    margin-top: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 .card-container{
     display: flex;
@@ -122,6 +123,23 @@ main{
     padding: 1.8rem;
 }
 
-
-/* header section style */
+/* sponsors section style */
+.sponsor-container{
+    text-align: center;
+}
+.sponsor-container p{
+    margin: 2rem;
+}
+.sponsors-column{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sponsors-column img{
+    width: 8rem;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    background-color: rgb(209, 209, 209);
+}
 /* header section style */

@@ -23,7 +23,10 @@
     }
     .fact-container{
         margin: 2rem 3rem;
-        
+    }
+    .sponsors-column{
+        flex-direction: column;
+        gap: 1rem;
     }
 }
 /* medium device */
@@ -56,6 +59,10 @@
     .card-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .sponsors-column{
+        flex-direction: column;
         gap: 1rem;
     }
 }
