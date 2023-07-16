@@ -4,7 +4,7 @@
         padding: 20px ;
         margin: 0 ;
     }
-    nav{
+    nav, .team-img-container{
         flex-direction: column;
         gap: 1rem;
     }
@@ -12,7 +12,16 @@
         margin: 1rem auto;
     }
     .banner-title{
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+    .team-img-container{
+        padding: 20px;
+    }
+    .team-img{
+        grid-template-columns: 1fr;
+    }
+    .team-img img{
+        gap: 1.5rem;
     }
 }
 /* medium device */
