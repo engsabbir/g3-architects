@@ -42,4 +42,8 @@
         gap: 2rem;
         margin-top: 0;
     }
+    .team-img img{
+        height: 97%;
+        width: 97%;
+    }
 }
