@@ -13,6 +13,16 @@
 .text-primary-third{
     color: #424242;
 }
+.btn-primary{
+    color: white;
+    padding: 10px 12px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
 /* header section style */
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -24,7 +34,7 @@ nav{
     align-items: center;
 }
 .nav-title{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 .navigation-link{
@@ -33,13 +43,32 @@ nav{
 }
 .navigation-link li{
     list-style: none;
-    margin-right: 30px;
+    margin-left: 30px;
     font-size: 1rem;
 }
 .navigation-link li a{
     text-decoration: none;
     color: #424242;
 }
-/* header section style */
+.navigation-link a:hover{
+    color: orange;
+}
+
+/* banner section style */
+.banner-content{
+    max-width: 900px;
+    text-align: center;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+.banner-title{
+    font-size: 4rem;
+}
+.banner-description{
+    margin: 1.5rem auto;
+}
+.banner-img img{
+    width: 100%;
+}
 /* header section style */
 /* header section style */
