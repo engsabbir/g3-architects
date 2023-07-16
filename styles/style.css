@@ -23,6 +23,10 @@
     font-size: 20px;
     font-weight: 600;
 }
+.section-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
 /* header and navigation section style */
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -33,10 +37,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    font-size: 2rem;
-    font-weight: 700;
-}
+
 .navigation-link{
     display: flex;
     text-align: center;
@@ -89,8 +90,7 @@ main{
     grid-template-columns: repeat(2, 1fr);
 }
 /* .team-img img{
-    height: 15rem;
-    width: 15rem;
+    width: 100%;
 } */
 .team-content-title{
     font-size: 2.8rem;
@@ -99,6 +99,7 @@ main{
     font-weight: 500;
 }
 .of-our{
+    font-size: 2.8rem;
     font-weight: 700;
 }
 .features{
@@ -108,4 +109,22 @@ main{
 .team-content-description{
     margin: 1rem auto;
 }
+/* fact section style */
+.fact-container{
+    margin-top: 6rem;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.card{
+    border: 1px solid #FF900E;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1.8rem;
+}
+
+
+/* header section style */
 /* header section style */
